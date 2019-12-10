@@ -81,7 +81,7 @@ Let's say we have 2 different coffee makers. One is a basic coffee maker and the
 
 All of these options are possible implementations of polymorphism. The benefit of dynamic polymorphism is that it allows us to use any form of coffee maker as long as it has a `brew()` method, takes the input of `coffeeGrounds` and `water`, and returns a cup of coffee.
 
-**Static (Comple-Time) Polymorphism** - Uses a feature called **Method Overloading**, which implements multiple methods in the same class with the same name, but different input parameters.
+**Static (Compile-Time) Polymorphism** - Uses a feature called **Method Overloading**, which implements multiple methods in the same class with the same name, but different input parameters.
 
 If I give the french press the parameters `coffeeGrounds` and `water` I'll get back a cup of coffee, but if I change my parameters to `teaLeaves` and `water`, then our french press will execute a different version of the `brew()` method that returns a cup of tea.
 
@@ -94,8 +94,6 @@ This course goes through a 5 step process of analysis and design to find out **w
 3. Identify the main objects
 4. Describe the interactions
 5. Create a class diagram
-
-This course also heavily uses UML diagrams, but I'm going to try and avoid having to add images to this and just type out what I think is important.
 
 &nbsp;
 
@@ -118,7 +116,7 @@ The system must...
 * ~~inherit meal types from an abstract superclass~~
 ```
 
-The 4th bullet above is struck from the list because defining requirements has nothing to do with object orientation. It shouldn't contain words like "abstract", "inheritance", "class" or "object", those are details we will get to later.
+The 4th bullet above is struck from the list because defining requirements has nothing to do with object orientation. It shouldn't contain words like "abstract", "inheritance", "class" or "object"--those are details we will get to later.
 
 ### Non-Functional Requirements
 
