@@ -407,7 +407,7 @@ public class Spaceship {
     // constructor method
     public Spaceship() {
         name = "The nameless ship";
-        sheildStrength = 100;
+        shieldStrength = 100;
     }
 
     // other methods...
@@ -433,7 +433,7 @@ public class Spaceship {
     // constructor methods
     public Spaceship() {
         name = "The nameless ship";
-        sheildStrength = 100;
+        shieldStrength = 100;
     }
 
     // overload constructor
