@@ -497,12 +497,13 @@ in UML diagrams, static members of a class are denoted with an underline.
 
 ### Identifying inheritance situations
 
-> ***Inheritance Describes an "Is a" Relationshipo***
+> ***Inheritance Describes an "Is a" Relationship***
 
 A StarFighter *is a* Spaceship
+
 A CargoShuttle *is a* Spaceship
 
-"Is a type of" or "Is a kind of" are other helpful phrases to indicate if you may have an inheritance situation.
+"*Is a type of*" or "*Is a kind of*" are other helpful phrases to indicate if you may have an inheritance situation.
 
 If we put the UML diagrams for StarFighter and CargoShuttle next to each other, it is clear they have several attributes and methods in common.
 
